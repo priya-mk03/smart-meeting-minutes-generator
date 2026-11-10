@@ -1,6 +1,6 @@
-# AI Meeting Minutes Generator
+# Smart Meeting Minutes Generator
 
-AI Meeting Minutes Generator is a Streamlit-based web application that uses speech-to-text and natural language processing to automatically generate clear, concise meeting summaries. It supports audio uploads (MP3/WAV) and produces structured minutes that can be directly emailed to your team.
+Smart Meeting Minutes Generator is a Streamlit-based web application that uses speech-to-text and natural language processing to automatically generate clear, concise meeting summaries. It supports audio uploads (MP3/WAV) and produces structured minutes that can be directly emailed to your team.
 
 ## Features
 
@@ -25,30 +25,35 @@ AI Meeting Minutes Generator is a Streamlit-based web application that uses spee
 ## Setup
 
 1. Clone the repository:
- ```bash
- git clone https://github.com/your-username/ai-meeting-minutes-generator.git
- cd ai-meeting-minutes-generator
 
-2.  Create a virtual environment
- ```bash
- python -m venv venv
- ```
+   ```bash
+   git clone https://github.com/priya-mk03/smart-meeting-minutes-generator.git
+   cd smart-meeting-minutes-generator
+   ```
 
-Activate the environment:
-  
-  **Windows (PowerShell):**
-  ```bash
-  venv\Scripts\activate
-  ```
-  **Mac/Linux:**
-  ```bash
-  source venv/bin/activate
-  ```
+2. Create a virtual environment:
 
-3. Install dependencies
-```bash
- pip install -r requirements.txt
- ```
+   ```bash
+   python3 -m venv venv
+   ```
+
+   Activate the environment:
+
+   **Windows (PowerShell):**
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   **Mac/Linux:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Configure your email credentials in environment variables or a `.env` file:
  ```bash
@@ -77,7 +82,7 @@ Activate the environment:
 
 ## File Structure
 ```bash
-ai-meeting-minutes-generator/
+smart-meeting-minutes-generator/
 ├── app.py                # Main Streamlit app
 ├── requirements.txt      # Python dependencies
 ├── .gitignore            # Git ignore file
@@ -89,7 +94,7 @@ ai-meeting-minutes-generator/
 This project is open source and available under the MIT License.
 
 ## Author
-Ambika Narayanan
+Priya M K
 
 
 
